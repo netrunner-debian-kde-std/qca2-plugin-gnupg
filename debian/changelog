@@ -1,0 +1,7 @@
+qca2-plugin-gnupg (0.1~20070706-1) experimental; urgency=low
+
+  * Initial release
+  * Closes: Bug#435703
+
+ -- Jan Niehusmann <jan@debian.org>  Mon, 06 Aug 2007 11:41:08 +0200
+

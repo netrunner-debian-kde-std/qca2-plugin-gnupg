@@ -1,0 +1,13 @@
+Source: qca2-plugin-gnupg
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Jan Niehusmann <jan@debian.org>
+Build-Depends: cdbs, debhelper (>= 5), autotools-dev, libqca2-dev
+Standards-Version: 3.7.2
+
+Package: libqca2-plugin-gnupg
+Architecture: any
+Depends: gnupg, ${shlibs:Depends}, ${misc:Depends}
+Description: QCA gnupg plugin for libqca2
+ This plugin provides features based on gnupg to qca2. 
