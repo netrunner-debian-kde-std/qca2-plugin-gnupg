@@ -1,3 +1,10 @@
+qca2-plugin-gnupg (0.1~20070904-2) unstable; urgency=low
+
+  * Use qmake.mk instead of makefile.mk (Closes: Bug#445941) 
+  * Upload to unstable
+
+ -- Jan Niehusmann <jan@debian.org>  Sat, 27 Oct 2007 19:12:30 +0200
+
 qca2-plugin-gnupg (0.1~20070904-1) experimental; urgency=low
 
   * New upstream release
