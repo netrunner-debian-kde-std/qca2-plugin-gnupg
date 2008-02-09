@@ -2,13 +2,17 @@ Source: qca2-plugin-gnupg
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Jan Niehusmann <jan@debian.org>
-Build-Depends: cdbs, debhelper (>= 5), autotools-dev, libqca2-dev (>=2.0.0)
-Standards-Version: 3.7.2
+Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), libqca2-dev (>=2.0.0)
+Standards-Version: 3.7.3
 Homepage: http://delta.affinix.com/qca/
 
 Package: libqca2-plugin-gnupg
 Architecture: any
 Depends: gnupg, ${shlibs:Depends}, ${misc:Depends}
-Description: QCA gnupg plugin for libqca2
- This plugin provides features based on gnupg to qca2. 
+Description: GnuPG/OpenPGP support for the Qt Cryptographic Architecture
+ The Qt Cryptographic Architecture provides a straightforward and cross-
+ platform API for a range of cryptographic features, including SSL/TLS,
+ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+ .
+ This plugin provides support for OpenPGP using GNU Privacy Guard.
