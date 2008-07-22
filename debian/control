@@ -3,9 +3,13 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), libqca2-dev (>=2.0.0)
-Standards-Version: 3.7.3
+Build-Depends: cdbs (>= 0.4.51),
+ debhelper (>= 6),
+ libqca2-dev (>=2.0.0)
+Standards-Version: 3.8.0
 Homepage: http://delta.affinix.com/qca/
+Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/qca/qca2-plugin-gnupg
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/qca/qca2-plugin-gnupg
 
 Package: libqca2-plugin-gnupg
 Architecture: any

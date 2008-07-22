@@ -1,13 +1,14 @@
-qca2-plugin-gnupg (2.0.0~beta2) UNRELEASED; urgency=low
+qca2-plugin-gnupg (2.0.0~beta3-1) unstable; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Matthew Rosewarne:
 
-  * New upstream release.
   * Switch rules to CDBS.
   * Bump compat to 6.
-  * Bump Standards-Version to 3.7.3.
+  * Bump Standards-Version to 3.8.0.
   * Tweak package description.
-  * Add Homepage: to control.
+  * Add Homepage and VCS headers to control.
   * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Feb 2008 22:54:53 -0500
