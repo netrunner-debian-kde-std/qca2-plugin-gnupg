@@ -1,0 +1,24 @@
+--- qca2-plugin-gnupg-2.0.0~beta3.orig/qca-gnupg.cpp
++++ qca2-plugin-gnupg-2.0.0~beta3/qca-gnupg.cpp
+@@ -62,21 +62,10 @@
+ 	return out;
+ }
+ 
+-#ifdef Q_OS_LINUX
+-static bool qt_buggy_fsw()
+-{
+-	// FIXME: just a guess that this is fixed in 4.3.5 and 4.4.0
+-	if(qVersionInt() < 0x040305)
+-		return true;
+-	else
+-		return false;
+-}
+-#else
+ static bool qt_buggy_fsw()
+ {
+ 	return false;
+ }
+-#endif
+ 
+ // begin ugly hack for qca 2.0.0 with broken dirwatch support
+ 

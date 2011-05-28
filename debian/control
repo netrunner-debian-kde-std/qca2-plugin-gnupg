@@ -4,10 +4,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), autotools-dev, libqca2-dev (>=2.0.0)
-Standards-Version: 3.7.2
+Standards-Version: 3.8.1
 
 Package: libqca2-plugin-gnupg
 Architecture: any
-Depends: gnupg, ${shlibs:Depends}, ${misc:Depends}
+Depends: gnupg, ${shlibs:Depends}, ${misc:Depends}, libqt4-core (>=4.4.0)
 Description: QCA gnupg plugin for libqca2
  This plugin provides features based on gnupg to qca2. 
